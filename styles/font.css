@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/NEXT ART_Light.otf");
+  font-family: 300;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/NEXT ART_Regular.otf");
+  font-family: 400;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/NEXT ART_Heavy.otf");
+  font-family: 500;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/NEXT ART_SemiBold.otf");
+  font-family: 600;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/NEXT ART_Bold.otf");
+  font-family: 700;
+}
