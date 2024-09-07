@@ -217,6 +217,34 @@ a {
   margin-right: auto;
 }
 
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.footer_list-item {
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+}
+
+.footer_list-item::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -20px;
+  height: 10px;
+  width: 6px;
+  background-image: url("../assets/arrow.svg");
+}
+
+.footer_list-item:hover {
+  color: #f2be22;
+  text-decoration: underline;
+}
+
 .footer__right {
   max-width: 280px;
 }
