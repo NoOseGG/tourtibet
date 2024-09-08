@@ -6,6 +6,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #18121e;
 }
 
 a {
@@ -79,10 +80,128 @@ a {
   border-radius: 10px;
 }
 
+/* hero */
+
+.hero {
+  padding: 100px 0;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__left {
+  width: 480px;
+  height: 526px;
+  position: relative;
+}
+
+.hero__img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero__img-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hero__img-play {
+  position: absolute;
+  right: 145px;
+  bottom: 180px;
+  cursor: pointer;
+}
+
+.hero__right {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__right-content {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.hero__right-btn {
+  margin-top: 40px;
+  padding: 16px 36px;
+}
+
+/* programms */
+
+.programms {
+  padding: 80px 0 100px;
+  background-color: #f3f5f4;
+}
+
+.programms__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.programms__left {
+  max-width: 580px;
+}
+
+.programms__item {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.programms__item-img {
+  width: 50px;
+  height: 50px;
+}
+
+.programms__item-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.programms__item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.2%;
+}
+
+.programms__item-content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+
+.programms__right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.programms__left_btn {
+  margin-top: 40px;
+  padding: 16px 36px;
+}
+
 /* footer */
 
 .footer {
-  margin-top: 200px;
+  margin-top: 100px;
   background-color: #1a3e3e;
 }
 
@@ -271,4 +390,25 @@ a {
 
 .footer-icon {
   cursor: pointer;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  margin-top: 8px;
+}
+
+.subtitle {
+  color: #f2be22;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
 }
