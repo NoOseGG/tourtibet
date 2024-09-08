@@ -254,6 +254,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
+  color: #000;
 }
 
 .actualy__form-box {
@@ -265,6 +266,7 @@ a {
 .actualy__form-input {
   padding: 12px 16px;
   background-color: #f3f5f4;
+  color: #000;
 }
 
 .actualy__form-input::placeholder {
